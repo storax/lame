@@ -1,0 +1,14 @@
+* Lame - manual task streamlining in Emacs
+Lame is a framework for streamlining manual tasks.
+The idea is to automate what's possible and use Emacs for
+all manual interaction.
+Often you only have to sanity check the result or slightly modfiy
+a text. Lame helps by reducing the necessary interaction to a minimum.
+The whole process is automatically documented so you can easily share your
+manual workflow with coworkers or keep it for reference.
+
+All lame really is, is a bunch of macros to define a chain of steps.
+Each step is automatically documented and can execute some arbitrary code.
+There are a couple of convenience functions for quickly writing new tasks.
+
+A demo of lame is available via =(lame/demo)=.
